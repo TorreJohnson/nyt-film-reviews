@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReviewContainer from './components/ReviewContainer';
-import NYT_API_KEY from './components/ApiKey';
 
+const NYT_API_KEY = config.NYT_API_KEY;
 // https://api.nytimes.com/svc/movies/v2/reviews/all.json?api-key=cfe93295999e4a3093ea16d8f40bac5a&offset=20
 
 class App extends Component {
